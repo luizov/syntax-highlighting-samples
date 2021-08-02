@@ -1,0 +1,42 @@
+{
+  "name": "Theme-name",
+  "type": "dark",
+  "colors": {
+    // base
+    "focusBorder": "#434554",
+    "foreground": "#fcfbff",
+    "widget.shadow": "#242738",
+    "icon.foreground": "#dddde3"
+  },
+  "tokenColors": [
+    {
+      "settings": {
+        "background": "#242738",
+        "foreground": "#dddde3",
+        "selectionBorder": "#bebec6",
+        "findHighlight": "#efe58a",
+        "findHighlightForeground": "#242738",
+        "activeGuide": "#ffb35c",
+        "bracketsForeground": "#dddde37F",
+        "bracketsOptions": "stippled_underline",
+        "bracketsContentsForeground": "#dddde37F",
+        "tagsOptions": "stippled_underline"
+      }
+    },
+    {
+      "name": "Comments and overrides inside comments",
+      "scope": [
+        "comment",
+        "comment markup.underline.link",
+        "comment string",
+        "comment punctuation",
+        "comment text",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#818B9C"
+      }
+    }
+  ]
+}
